@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trip_history"
+            android:title="Trip History" />
+        <item
+            android:id="@+id/nav_way_bill"
+            android:title="Way Bill" />
+        <item
+            android:id="@+id/nav_car_type"
+            android:title="Car Type" />
+        <item
+            android:id="@+id/nav_change_paasword"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_change_information"
+            android:title="Change Information" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_signout"
+            android:title="Sign Out" />
+    </group>
+
+
+</menu>
